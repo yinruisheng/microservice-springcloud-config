@@ -34,6 +34,10 @@ eureka:
   instance:
     instanceId: ${spring.application.name}:${server.port}
     prefer-ip-address: true 
+#完善监控信息展示
+info:
+  app.name: microservice-product-1-config #服务的名称
+  company.name: com.yrs
 ---
 server:
   port: 8001
