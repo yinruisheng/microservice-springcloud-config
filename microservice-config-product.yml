@@ -39,7 +39,7 @@ info:
   app.name: microservice-product-1-config #服务的名称
   company.name: com.yrs
 emp:
-  name: zhangsan
+  name: lisi
 ---
 server:
   port: 8001
